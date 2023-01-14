@@ -36,7 +36,7 @@ ECB, CBC, CFB modes are supported.
 # Padding
 This library does not provide any padding because padding is not part of AES standard. Plaintext and ciphertext length in bytes must be divisible by 16. If length doesn't satisfy this condition exception will be thrown
 
-# BUILD Instructoions
+# BUILD Instructions
 Use Cmake 3.15 above version.
 To specify specific compiler add -G "compiler name" to build.bat file.
 all executable are generated in build folder
