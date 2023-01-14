@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.5)
 
-project(subprojects)
+project(AES)
 
 # Add sub directories
 add_subdirectory(library)
